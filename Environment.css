@@ -1,0 +1,182 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+/*****************Header ********************/
+
+header{
+	background-image: url(Plant.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: bottom;
+
+}
+
+/************Navbar******************************/
+.beader{
+	padding: 1em 0;
+}
+.container{
+	width: 80%;
+	margin:0 auto;
+}
+a{
+	text-decoration: none;
+}
+a.logo{
+	color: green;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	font-size: 28px;
+	padding: 1em 0;
+}
+nav{
+	float: right;
+   }
+
+ul{
+
+	list-style-type: none;
+	margin: 0;
+	display: flex;
+  }
+
+li{
+	padding: .4em;
+  }
+
+li a{
+    
+    color: green;
+	padding: 2em ;
+	}
+li span:hover{
+	background-color:rgb(153,193,8,.4);
+	border-bottom: 2px solid green;
+}
+
+span{
+	padding: 5px;
+}
+
+
+
+/*****************Header**********************/
+.heading-main{
+	position: absolute;
+	top:50%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+	
+
+}
+
+.large-font{
+	font-size: 100px;
+	color: rgb(129,101,97);
+}
+.h2-left{
+	left: 10px;
+	font-size: 30px;
+	float: right;
+	padding-right: 20px;
+	padding-top: 20px;
+	color: green;
+}
+
+/************Heading Main********************************/
+
+/**************Section***************************/
+.section-content{
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+	/*background-color: rgb(87,114,106,.2);*/
+	background-color: rgb(240,240,240);
+
+
+}
+
+.heading-section{
+
+font-size: 40px;
+color:green;
+letter-spacing: 5px;
+}
+.center{
+	text-align: center;
+
+}
+.left{
+	text-align: left;
+}
+.align-content-para{
+	padding: 15px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.planet{
+	margin-top: 2em;
+	width: 500px;
+	height: 400px;
+	margin-left: 30%;
+	background-image: url(planet.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.heading-sub{
+	height: 30em;
+	background-image: url(sunflower.jpg);
+	background-size: cover;
+	background-position: center;
+	transform: scaleX(-1);
+}
+
+.heading-two{
+	position: absolute;
+	top: 33%;
+	left :38%;
+	transform: scaleX(-1);
+	color:white;
+	width: 20em;
+	height: 26em;
+	
+}
+.heading-one{
+	font-size: 120px;
+	color: white;
+	font-family: 'Amatic SC', cursive;	
+
+}
+.heading-third{
+	font-size: 80px;
+	text-align: center;
+	color :green;
+}
+button{
+	margin-left: 29em;
+	margin-top: 80px;
+	height: 60px;
+	background-color: green;
+	color:white;
+	width: 200px;
+}
+footer{
+	background-color: rgb(153,193,8,.4);
+	height: 200px;
+	background-image: url(wwf-logo.png);
+	background-repeat: no-repeat;
+	background-size: 150px 180px;
+	background-position: center;
+	
+}
+
+img{
+	width: 50px;
+	margin-top: 70px;
+	padding-left: 20px;
+}
+
+
